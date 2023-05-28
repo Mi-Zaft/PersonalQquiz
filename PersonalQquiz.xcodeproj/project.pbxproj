@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		9429601A2A20148300325F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942960192A20148300325F38 /* AppDelegate.swift */; };
 		9429601C2A20148300325F38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9429601B2A20148300325F38 /* SceneDelegate.swift */; };
-		9429601E2A20148300325F38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9429601D2A20148300325F38 /* ViewController.swift */; };
+		9429601E2A20148300325F38 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9429601D2A20148300325F38 /* QuestionsViewController.swift */; };
 		942960212A20148300325F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9429601F2A20148300325F38 /* Main.storyboard */; };
 		942960232A20148400325F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942960222A20148400325F38 /* Assets.xcassets */; };
 		942960262A20148400325F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942960242A20148400325F38 /* LaunchScreen.storyboard */; };
 		942960322A201E6300325F38 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942960312A201E6300325F38 /* Question.swift */; };
+		94377C2D2A2404D2004B97FF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94377C2C2A2404D2004B97FF /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		942960162A20148300325F38 /* PersonalQquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQquiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		942960192A20148300325F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9429601B2A20148300325F38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9429601D2A20148300325F38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9429601D2A20148300325F38 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		942960202A20148300325F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		942960222A20148400325F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		942960252A20148400325F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		942960272A20148400325F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		942960312A201E6300325F38 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		94377C2C2A2404D2004B97FF /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,8 @@
 		9429602E2A20169200325F38 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9429601D2A20148300325F38 /* ViewController.swift */,
+				9429601D2A20148300325F38 /* QuestionsViewController.swift */,
+				94377C2C2A2404D2004B97FF /* ResultViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -173,7 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9429601E2A20148300325F38 /* ViewController.swift in Sources */,
+				94377C2D2A2404D2004B97FF /* ResultViewController.swift in Sources */,
+				9429601E2A20148300325F38 /* QuestionsViewController.swift in Sources */,
 				942960322A201E6300325F38 /* Question.swift in Sources */,
 				9429601A2A20148300325F38 /* AppDelegate.swift in Sources */,
 				9429601C2A20148300325F38 /* SceneDelegate.swift in Sources */,
